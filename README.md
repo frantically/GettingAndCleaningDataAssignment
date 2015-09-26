@@ -1,6 +1,6 @@
 # README
 
-Running run_analysis.R will perform the steps below. See (CookBook.md) for more information on the variables produced. In order to run successfully the required input data must be in the same directory as run_analysis.R.
+Running run_analysis.R will perform the steps below. See [CookBook.md] for more information on the variables produced. In order to run successfully the required input data must be in the same directory as run_analysis.R.
 
 * For each set of data (test and training):
     * Load the data
