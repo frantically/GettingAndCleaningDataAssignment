@@ -6,7 +6,7 @@ This data is derived from the "Human Activity Recognition Using Smartphones" dat
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 #Input Data
-The input data contains measurements for various subjects performing certain activities (e.g. WALKING). Measurements from the smartphone of each subject used during these activities (e.g. tBodyAcc-std()-X). Details of each of these variable can be found in features.txt and README.txt of the original data.
+The input data contains measurements for various subjects performing certain activities (e.g. WALKING). Measurements are captued from the smartphone of each subject used during these activities (e.g. tBodyAcc-std()-X). Details of each of these variables can be found in features.txt and README.txt of the original data linked above.
 
 #Output Data
 A table containing the following information is produced by running run_analysis.R:
@@ -16,4 +16,4 @@ A table containing the following information is produced by running run_analysis
 * observation - the feature measured on the smartphone
 * mean - the mean value of all observations for this subject, activity and observation
 
-Only observations for mean and standard deviation have been included in this summary output
+Only observations for features that are either mean or standard deviation have been included in this output
